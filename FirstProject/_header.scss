@@ -1,0 +1,55 @@
+  
+        .navbar {
+            width: 100vw;
+            font-family: 'Roboto', sans-serif;
+            box-shadow: 3px 3px 7px;
+            background-color: #f2f2f2;
+            background:linear-gradient(
+                to right,
+                #f2cc0f,
+                #8cbf3f
+                );
+        }
+
+        .nav-link {
+            line-height: 4.5;
+            
+            z-index: 22;
+        }
+
+        .headImg {
+            position: absolute;
+            width: 100vw;
+            height: 100px;
+            background-color: #f2f2f246;
+            opacity:0.5;
+            z-index:1;
+        }
+        .headIcon{
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            right: 0;
+            margin: 0 auto;
+          
+            z-index: 10;
+           
+        }
+        @media (max-width: 990px){
+            .headIcon{
+                
+                position: absolute;
+                width: 57px;
+                height: 57px;
+                left: 0px;
+                right: auto;
+                z-index: 10;
+            
+            } 
+
+            .headImg{
+                display: none;
+            }
+        }
+
+        

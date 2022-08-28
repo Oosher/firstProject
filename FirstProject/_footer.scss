@@ -1,0 +1,52 @@
+
+footer{
+    background-color: #9453a6;
+    width: 100vw;
+    height: 35vh;
+    box-shadow: -3px -3px 7px ;
+
+}
+
+ul{
+    list-style: none;
+    font-size: 0.9rem;
+  
+}
+li{
+    margin: 10px;
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+ul .footerHeader{
+    
+       font-weight: bold;
+       text-shadow: 2px 2px 13px;
+       text-decoration:underline;
+     
+}
+footer a img{
+    width: 36px;
+    height: 36px;
+}
+footer a img:hover{
+    filter: grayscale(100%)
+}
+.copyRight{
+
+bottom: 0px;
+font-size: 0.78rem;
+}
+.aboutBox ul li a{
+    text-decoration: none;
+    color: black;
+}
+ @media (max-width: 990px){
+    li{
+        font-size: 0.8rem;
+    }
+    footer{
+        height: 55vh;
+
+    }
+ }

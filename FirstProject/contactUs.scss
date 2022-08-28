@@ -1,0 +1,45 @@
+@import "header","footer";
+form{
+     width: 30vw;
+    margin: 40px auto;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+  /*   background-image: url("websiteImages/backgrundform.png"); */
+  /*   background-repeat: no-repeat; */
+    border-radius: 2%;
+    /* color:#f2f2f2 ; */
+    background:linear-gradient(to bottom,#8cbf3f,#9453a6);
+    box-shadow: #8cbf3f -5px 5px, #8cbf3fb8 -10px 10px, #8cbf3f86 -15px 15px, #8cbf3f6a -20px 20px, #8cbf3f45 -25px 25px;
+}
+
+textarea{
+    resize: none;
+}
+
+input[type="submit"]{
+    width: 30%;
+    align-self: flex-end;
+}
+span{
+    color: red;
+    text-shadow: black 1px 1px 1px;
+}
+
+@media (max-width: 1200px){
+
+
+    form{
+       width: 40vw;
+        
+    }
+}
+
+@media (max-width: 990px){
+
+
+    form{
+       width: 80vw;
+        
+    }
+}

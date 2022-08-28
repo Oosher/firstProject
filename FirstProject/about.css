@@ -1,0 +1,140 @@
+footer {
+  background-color: #9453a6;
+  width: 100vw;
+  height: 35vh;
+  box-shadow: -3px -3px 7px;
+}
+
+ul {
+  list-style: none;
+  font-size: 0.9rem;
+}
+
+li {
+  margin: 10px;
+  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+ul .footerHeader {
+  font-weight: bold;
+  text-shadow: 2px 2px 13px;
+  text-decoration: underline;
+}
+
+footer a img {
+  width: 36px;
+  height: 36px;
+}
+
+footer a img:hover {
+  filter: grayscale(100%);
+}
+
+.copyRight {
+  bottom: 0px;
+  font-size: 0.78rem;
+}
+
+.aboutBox ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 990px) {
+  li {
+    font-size: 0.8rem;
+  }
+  footer {
+    height: 55vh;
+  }
+}
+.navbar {
+  width: 100vw;
+  font-family: "Roboto", sans-serif;
+  box-shadow: 3px 3px 7px;
+  background-color: #f2f2f2;
+  background: linear-gradient(to right, #f2cc0f, #8cbf3f);
+}
+
+.nav-link {
+  line-height: 4.5;
+  z-index: 22;
+}
+
+.headImg {
+  position: absolute;
+  width: 100vw;
+  height: 100px;
+  background-color: rgba(242, 242, 242, 0.2745098039);
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.headIcon {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 0;
+  margin: 0 auto;
+  z-index: 10;
+}
+
+@media (max-width: 990px) {
+  .headIcon {
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 0px;
+    right: auto;
+    z-index: 10;
+  }
+  .headImg {
+    display: none;
+  }
+}
+.row #navbar-example3 nav a {
+  background-color: #f2f2f2;
+  font-size: 0.96rem;
+  color: blue;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+div img {
+  width: 14.5vw;
+}
+
+@media (max-width: 990px) {
+  .row #navbar-example3 nav a {
+    font-size: 1rem;
+  }
+  .col-10 {
+    display: none;
+  }
+}
+@media (max-width: 575px) {
+  .row #navbar-example3 nav a {
+    font-size: 1rem;
+  }
+  div img {
+    display: block;
+    width: 80vw;
+    height: 40vh;
+    margin: 0px auto;
+  }
+  .col-10 {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    top: 0px;
+  }
+}
+.wikiNav {
+  border-radius: 20px;
+  background: linear-gradient(to right, #f2f2f2, #f2f2f2);
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}/*# sourceMappingURL=about.css.map */

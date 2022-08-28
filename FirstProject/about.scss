@@ -1,0 +1,59 @@
+@import "footer","header";
+
+.row #navbar-example3 nav a{
+    background-color: #f2f2f2;
+    font-size: 0.96rem;
+    color: blue;
+    
+}
+body{
+    background-color: #f2f2f2;
+}
+div img{
+    
+    width: 14.5vw;
+}
+@media (max-width: 990px){
+    .row #navbar-example3 nav a{
+    
+    font-size: 1rem;
+
+    
+}
+.col-10{
+    display: none;
+}
+}
+
+
+@media (max-width: 575px){
+    .row #navbar-example3 nav a{
+    
+    font-size: 1rem;
+
+    
+}
+div img{
+    display: block;
+    width: 80vw;
+    height: 40vh;
+    margin:0px auto;
+}
+.col-10{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    top: 0px;
+}
+}
+
+.wikiNav{
+    border-radius: 20px;
+    background:linear-gradient(
+                to right,
+                #f2f2f2,
+                #f2f2f2
+                );
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
